@@ -13,20 +13,24 @@
     border-radius: 10px;
     border-color: black;
     width: fit-content;
-    padding: 7px;
+    padding: 5px;
     font-size: 15px;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+  z-index: 10;
+  top: 0;
+  height: 55px;
 }
 .about {
-    margin-left: 67%;
     font-family: sans-serif;
-}
-body{
-    padding: 2%;
+    margin: auto;
+    width: 90px;
 }
 .info{
     display: flex;
@@ -35,6 +39,8 @@ body{
     width: 60%;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
+    top: 70px;
 }
 .image{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -75,4 +81,33 @@ font-size:unset ;
 }
 .education{
 text-align: center;
+position: relative;
+top: 100px;
+}
+.link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.myinfo{
+    justify-content: end;
+    display: flex;
+    margin-right: 3%;
+}
+.home{
+    margin-left: 3%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    width: 100%;
+  z-index: 10;
+  bottom: 0;
+  height: 55px;
 }
