@@ -3,13 +3,11 @@
     margin-bottom: 0;
     font-weight: bolder;
 }
-
 #h2 {
     font-size: 48px;
     margin: 0;
     font-weight: bolder;
 }
-
 .email {
     border: 2px solid;
     border-radius: 10px;
@@ -17,15 +15,12 @@
     width: fit-content;
     padding: 7px;
     font-size: 15px;
-
 }
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .about {
     margin-left: 67%;
     font-family: sans-serif;
@@ -40,7 +35,6 @@ body{
     width: 60%;
     margin: 0 auto;
     padding: 20px;
-
 }
 .image{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -57,4 +51,28 @@ body{
     font-family:sans-serif;
     width: 100%;
 }
-
+.heading {
+    text-align: center;
+}
+.board{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;   
+}
+.course{
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.data{
+font-size:unset ;
+}
+.year{
+    font-weight: 200px;
+    font-size: large;
+    font-weight: 300;
+}
+.education{
+text-align: center;
+}
